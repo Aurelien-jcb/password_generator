@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Générateur de Mot de Passe</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <main>
+    <div class="input__container">
+      <h1 class="input__title">Générateur de mot de passe</h1>
+      <input class="input__input" type="text" name="password" id="password" placeholder="Générer un mot de passe"
+        readonly="">
+      <img class="input__icon" onclick="copyPassword();" src="/img/copy.svg" alt="Icone de copie" />
+      <div class="input__alert"></div>
+      <button id="input__btn" onclick="generatePassword();">Générer !</button>
+    </div>
+    <div class="input__alert"></div>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>

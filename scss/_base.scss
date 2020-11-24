@@ -1,0 +1,21 @@
+/* Couleurs */
+$background : #f8f8f8;
+$fontcolor : #37718E;
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    background: $background;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
