@@ -15,6 +15,8 @@
       <h1 class="input__title">Générateur de mot de passe</h1>
       <input class="input__input" type="text" name="password" id="password" placeholder="Générer un mot de passe"
         readonly="">
+        <label for="passwordLenght">Choisissez la longueur :</label>
+        <input type="number" name="name" id="passwordLenght" value="value" placeholder="20"/>
       <img class="input__icon" onclick="copyPassword();" src="/img/copy.svg" alt="Icone de copie" />
       <div class="input__alert"></div>
       <button id="input__btn" onclick="generatePassword();">Générer !</button>
